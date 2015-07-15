@@ -75,7 +75,7 @@ angular
             /**
              * @method merge
              * @description Merges the state of a detached entity into the persistence context of this EntityManager and returns the managed copy of the entity. The entity passed to merge will not become associated/managed with this EntityManager.
-             * @param {Object} The detached entity to merge into the persistence context.
+             * @param {Object} entity The detached entity to merge into the persistence context.
              * @return {Object} The managed copy of the entity.
              */
             merge: function (entity) {
