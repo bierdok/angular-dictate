@@ -11,7 +11,7 @@ The benefit of AngularDictate for the programmer is the ability to focus on the 
 
 ## Quick start
 
-+ Install AngularDictate with [Npm](https://www.npmjs.com/) and [Bower](https://github.com/bower/bower).
++ Install AngularDictate with [npm](https://www.npmjs.com/) and [Bower](http://bower.io/).
 
 >
 ```bash
