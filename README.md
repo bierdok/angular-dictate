@@ -66,7 +66,6 @@ angular
 angular
     .module('myApp.myCtrl', [])
     .controller('MyCtrl', function ($dictate) {
-
         var em = $dictate.getManager();
     });
 ```
