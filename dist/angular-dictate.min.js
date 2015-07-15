@@ -1,6 +1,6 @@
 /**
  * angular-dictate
- * @version v1.4.1 (2015-07-14)
+ * @version v1.4.1 (2015-07-15)
  * @link https://github.com/softilabs/angular-dictate
  * @author Benoît Bourgeois <ben.bourgeois@softilabs.com> (https://github.com/softilabs)
  * @license MIT

@@ -1,6 +1,5 @@
 /**
  * # $dictate
- * ---
  */
 angular
     .module('softilabs.ngDictate.core', [])

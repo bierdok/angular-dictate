@@ -1,8 +1,6 @@
 /**
  * # EntityManager
  * An EntityManager provides the access point to the complete lifecycle management of your entities and transforms entities from and back to persistence.
- *
- * ---
  */
 angular
     .module('softilabs.ngDictate.manager', [])

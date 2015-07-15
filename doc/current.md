@@ -17,7 +17,6 @@
 <!-- Start src/core.js -->
 
 # $dictate
----
 
 ## getManager()
 
@@ -40,8 +39,6 @@ Removes all entities from the LocalStorage and clear managed entities.
 
 # Entity
 An entity contains persistable properties. A persistable property is an instance variable of the entity that is saved into and retrieved from the LocalStorage by Dictate’s data mapping capabilities.
-
----
 
 <!-- End src/entity.js -->
 
@@ -66,8 +63,6 @@ An entity contains persistable properties. A persistable property is an instance
 
 # EntityManager
 An EntityManager provides the access point to the complete lifecycle management of your entities and transforms entities from and back to persistence.
-
----
 
 ## clear([entityName])
 
@@ -194,22 +189,20 @@ Associations between entities are represented just like in regular object using 
 
 The following associations exist:
 
-```hasOne``` References an other object.
-```hasMany``` References a collection of objects.
++ ```hasOne``` References an other object.
++ ```hasMany``` References a collection of objects.
 
 ## Cascade operations
 Persisting, removing, detaching, refreshing and merging individual entities can become pretty cumbersome, especially when a highly interweaved object graph is involved. Therefore Doctrine 2 provides a mechanism for transitive persistence through cascading of these operations. Each association to another entity or a collection of entities can be configured to automatically cascade certain operations. By default, no operations are cascaded.
 
 The following cascade options exist:
 
-```persist``` Cascades persist operations to the associated entities.
-```remove``` Cascades remove operations to the associated entities.
-```merge``` Cascades merge operations to the associated entities.
-```detach``` Cascades detach operations to the associated entities.
-```refresh``` Cascades refresh operations to the associated entities.
-```all``` Cascades persist, remove, merge, refresh and detach operations to associated entities.
-
----
++ ```persist``` Cascades persist operations to the associated entities.
++ ```remove``` Cascades remove operations to the associated entities.
++ ```merge``` Cascades merge operations to the associated entities.
++ ```detach``` Cascades detach operations to the associated entities.
++ ```refresh``` Cascades refresh operations to the associated entities.
++ ```all``` Cascades persist, remove, merge, refresh and detach operations to associated entities.
 
 <!-- End src/mapping.js -->
 
@@ -234,8 +227,6 @@ The following cascade options exist:
 
 # EntityRepository
 An EntityRepository serves as a repository for entities with generic as well as business specific methods for retrieving entities.
-
----
 
 ## clear()
 

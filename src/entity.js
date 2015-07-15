@@ -1,8 +1,6 @@
 /**
  * # Entity
  * An entity contains persistable properties. A persistable property is an instance variable of the entity that is saved into and retrieved from the LocalStorage by Dictate’s data mapping capabilities.
- *
- * ---
  */
 angular
     .module('softilabs.ngDictate.entity', [])

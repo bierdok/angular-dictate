@@ -1,7 +1,5 @@
 # AngularDictate
 
-===============
-
 AngularDictate is an object-relational mapper (ORM) based on [Doctrine Project](http://www.doctrine-project.org/) for [AngularJS](http://angularjs.org/) applications that provides transparent persistence for Javascript objects. It uses the Data Mapper pattern at the heart, aiming for a complete separation of your domain/business logic from the persistence in the LocalStorage.
 
 The benefit of AngularDictate for the programmer is the ability to focus on the object-oriented business logic and worry about persistence only as a secondary problem. This doesn’t mean persistence is downplayed by AngularDictate, however it is our belief that there are considerable benefits for object-oriented programming if persistence and entities are kept separated.
@@ -40,7 +38,6 @@ angular
         'softilabs.ngDictate'
     ])
     .config(function ($dictateProvider) {
-
         $dictateProvider.setMapping({
             address: {},
             company: {
@@ -60,7 +57,6 @@ angular
             }
         });
     });
-
 ```
 
 + Obtain the entity manager in a controller:
@@ -73,7 +69,6 @@ angular
 
         var em = $dictate.getManager();
     });
-
 ```
 
 + Read the documentation.
