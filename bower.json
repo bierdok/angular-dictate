@@ -24,6 +24,7 @@
   ],
   "ignore": [
     "doc",
+    "src",
     "test"
   ],
   "dependencies": {
