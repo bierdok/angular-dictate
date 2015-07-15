@@ -40,6 +40,22 @@ Removes all entities from the LocalStorage and clear managed entities.
 # Entity
 An entity contains persistable properties. A persistable property is an instance variable of the entity that is saved into and retrieved from the LocalStorage by Dictate’s data mapping capabilities.
 
+## add(entity)
+
+Adds an entity to a collection. *for hasMany relation only*
+
+### Params:
+
+* **Object** *entity* The entity to add.
+
+## remove(entity)
+
+Removes an entity from a collection. *for hasMany relation only*
+
+### Params:
+
+* **Object** *entity* The entity to remove.
+
 <!-- End src/entity.js -->
 
 
