@@ -125,13 +125,13 @@ Gets the repository for an entity name.
 
 * **Object** The repository.
 
-## merge(The)
+## merge(entity)
 
 Merges the state of a detached entity into the persistence context of this EntityManager and returns the managed copy of the entity. The entity passed to merge will not become associated/managed with this EntityManager.
 
 ### Params:
 
-* **Object** *The* detached entity to merge into the persistence context.
+* **Object** *entity* The detached entity to merge into the persistence context.
 
 ### Return:
 
