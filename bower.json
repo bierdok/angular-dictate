@@ -1,0 +1,37 @@
+{
+  "name": "angular-dictate",
+  "version": "1.4.1",
+  "description": "AngularDictate - Object Relational Mapper for AngularJS and LocalStorage",
+  "keywords": [
+    "ORM",
+    "LocalStorage"
+  ],
+  "homepage": "https://github.com/softilabs/angular-dictate",
+  "bugs": "https://github.com/softilabs/angular-dictate/issues",
+  "author": {
+    "name": "Benoît Bourgeois",
+    "email": "ben.bourgeois@softilabs.com",
+    "url": "https://github.com/softilabs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/softilabs/angular-dictate.git"
+  },
+  "main": [
+    "dist/angular-dictate.js",
+    "dist/angular-dictate.min.js"
+  ],
+  "ignore": [
+    "doc",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-local-storage": "~0.2.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.1",
+    "moment": "~2.10.3"
+  }
+}
