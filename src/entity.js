@@ -6,7 +6,7 @@ angular
     .module('softilabs.ngDictate.entity', [])
     .factory('$dictateEntity', function ($dictateCachedEntities, $dictateCachedRepositories, $dictateInflector, $dictateEntities, $dictateMapping) {
 
-        var Entity = function (name, uid) {
+        return function (name, uid) {
 
             var self = this;
 
@@ -57,6 +57,11 @@ angular
                                 }
                             });
                         });
+                        /**
+                         * @method add
+                         * @description Adds an entity to a collection. *for hasMany relation only*
+                         * @param {Object} entity The entity to add.
+                         */
                         Object.defineProperty(self, 'add', {
                             get: function () {
                                 return function(entity) {
@@ -64,6 +69,11 @@ angular
                                 };
                             }
                         });
+                        /**
+                         * @method remove
+                         * @description Removes an entity from a collection. *for hasMany relation only*
+                         * @param {Object} entity The entity to remove.
+                         */
                         Object.defineProperty(self, 'remove', {
                             get: function () {
                                 return function(entity) {
@@ -77,6 +87,4 @@ angular
 
             $dictateCachedEntities[name][uid] = self;
         };
-
-        return Entity;
     });
